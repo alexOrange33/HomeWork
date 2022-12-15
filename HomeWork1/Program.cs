@@ -12,10 +12,10 @@ else
 {
     if(num1>num2)
     {
-        Console.Write($"max = {num1}");
+        Console.Write($"max = {num1}, min = {num2}");
     }
     else
     {
-        Console.Write($"max = {num2}");
+        Console.Write($"max = {num2}, min = {num1}");
     }
 }
